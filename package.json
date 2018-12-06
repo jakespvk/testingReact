@@ -23,7 +23,9 @@
     "react-dom": "^16.6.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "webpack": "^4.23.1"
+    "webpack": "^4.23.1",
+    "post-install": "webpack",
+    "heroku-postbuild": "webpack -p"
   },
   "scripts": {
     "dev": "webpack -d --watch",
