@@ -31,8 +31,8 @@
     "build": "webpack -p",
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
-    "postinstall": "npm run react-dev",
-    "heroku-postbuild": "npm run server-dev"
+    "postinstall": "webpack",
+    "heroku-postbuild": "webpack -p"
   },
   "devDependencies": {
     "webpack-cli": "^3.1.2"
