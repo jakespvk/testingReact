@@ -24,7 +24,7 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "webpack": "^4.23.1",
-    "postinstall": "webpack"
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap"
   },
   "scripts": {
     "dev": "webpack -d --watch",
