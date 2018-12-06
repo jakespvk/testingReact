@@ -28,10 +28,11 @@
   "scripts": {
     "dev": "webpack -d --watch",
     "start": "node ./server/index.js",
-
+    "build": "webpack -p",
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
-    "heroku-postbuild": "webpack -p"
+    "heroku-postbuild": "webpack -p",
+    "postinstall": "webpack"
   },
   "devDependencies": {
     "webpack-cli": "^3.1.2"
