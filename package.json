@@ -20,7 +20,6 @@
     "babel-preset-state-0": "^6.5.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "heroku-postbuild": "webpack -p",
     "postinstall": "webpack",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
