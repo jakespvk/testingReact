@@ -23,7 +23,7 @@
     "react-dom": "^16.6.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "webpack": "^4.23.1"
+    "webpack": "^3.4.1"
   },
   "scripts": {
     "dev": "webpack -d --watch",
@@ -31,11 +31,10 @@
     "build": "webpack -p",
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
-    
+    "heroku-postbuild": "webpack -p",
     "postinstall": "webpack"
   },
   "devDependencies": {
     "webpack-cli": "^3.1.2",
-    "heroku-postbuild": "webpack -p"
   }
 }
