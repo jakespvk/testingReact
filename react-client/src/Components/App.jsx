@@ -6,6 +6,7 @@ import HomePage from './HomePage';
 import NavBar from './NavBar';
 import AboutUs from './AboutUs';
 import Gear from './Gear';
+import Gallery from './Gallery';
 
 class App extends Component {
 
@@ -17,6 +18,7 @@ class App extends Component {
           <Route name="home" exact path="/" component={HomePage} />
           <Route name="about" exact path="/AboutUs" component={AboutUs} />
           <Route name="gear" exact path="/Gear" component={Gear} />
+          <Route name="gallery" exact path="/Gallery" component={Gallery} />
         </div>
       </Router>
     )

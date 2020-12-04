@@ -1,2 +1,8 @@
-# testingReact
-My first web app with React
+# Logs
+logs
+*.Logs
+# Compiled directory and file
+build/
+bundle.js
+# Dependency directories
+node_modules/

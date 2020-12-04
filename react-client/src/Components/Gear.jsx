@@ -9,9 +9,7 @@ class Gear extends Component {
     return (
       <div id="gear">
         <h1 id="gearH1">gear</h1>
-      	<p id="gearP">Jake and Sarah are California-based photographers
-      	who shoot primarily portrait and landscape photos. They both
-      	shoot on Canon cameras, and hope to be sponsored by Canon someday.</p>
+      	<p id="gearP">Jake's primary camera is a Canon EOS 7D and his favorite lens at the 	moment is his Canon 50mm f/1.4 USM</p>
       </div>
     )
   }

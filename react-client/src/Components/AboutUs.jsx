@@ -9,9 +9,10 @@ class AboutUs extends Component {
     return (
       <div id="aboutUs">
         <h1 id="aboutUsH1">about</h1>
-      	<p id="aboutUsP">Jake and Sarah are California-based photographers
-      	who shoot primarily portrait and landscape photos. They both
-      	shoot on Canon cameras, and hope to be sponsored by Canon someday.</p>
+      	<p id="aboutUsP">Jake is a California-based photographer
+      	who shoots primarily portrait and landscape photos. He
+      	shoots on Canon cameras, and hopes to be sponsored by Canon
+        someday.</p>
       </div>
     )
   }
