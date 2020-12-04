@@ -15,7 +15,7 @@ class Gallery extends Component {
         <img src={photo1} alt="ugh" />
         <img src={photo2} alt="ugh" />
         <img src={photo3} alt="ugh" />
-        <img src="https://photos.app.goo.gl/Hrhez5uEtGW2Mkf58" alt="ugh" />
+        <img src={photo4} alt="ugh" />
       </div>
     )
   }

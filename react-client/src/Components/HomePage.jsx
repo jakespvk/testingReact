@@ -5,7 +5,7 @@ class HomePage extends Component {
       <div id="homepage">
         <h1 id="homepageH1">home</h1>
         <div id="homepageMainP">
-      	 <p id="homepageP">Hello and welcome! We hope you enjoy.</p>
+      	 <p id="homepageP">Hello and welcome! Hope you enjoy.</p>
         </div>
       </div>
     )
