@@ -5,6 +5,7 @@ import NavBar from './NavBar.jsx';
 import photo1 from './photos/IMGM1736copy.jpg';
 import photo2 from './photos/IMGL3385copy.jpg';
 import photo3 from './photos/IMGL2139copy.jpg';
+import photo4 from './photos/IMGL1640.JPG';
 
 class Gallery extends Component {
   render() {
