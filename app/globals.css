@@ -1,5 +1,6 @@
 html {
 	background-color: ;
+    display: flex;
 }
 header {
 	display: block;
