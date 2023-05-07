@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
       <header>
         <ul id="headerButtons">
-          <Link className="navButtonHome" href='//'>home</Link>
+          <Link className="navButtonHome" href='/'>home</Link>
           <Link className="navButtonAbout" href='/about'>about</Link>
           <Link className="navButtonGear" href='/gear'>gear</Link>
           <Link className="navButtonGallery" href="/gallery">gallery</Link>
