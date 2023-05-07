@@ -1,6 +1,5 @@
 html {
 	background-color: ;
-    display: flex;
 }
 header {
 	display: block;
@@ -8,7 +7,8 @@ header {
 	color: white;
 }
 Image {
-	height: 20;
+    display: flex; 
+    height: 20;
 	padding: 12px;
 }
 #headerButtons {
@@ -37,6 +37,7 @@ h1 {
 	color: #f39c12;
 }
 p {
+    display: flex;
 	font-family: menlo;
 	color: #0068b6;
 	line-height: 1.5;
