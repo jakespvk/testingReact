@@ -1,15 +1,13 @@
-html {
-	background-color: ;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+* {
+    font-family: Quicksand;
 }
 header {
 	display: block;
 	height: 50px;
 	color: white;
-}
-Image {
-    display: flex; 
-    height: 20;
-	padding: 12px;
 }
 #headerButtons {
 	list-style-type: none;
@@ -21,7 +19,6 @@ a:hover {
 }
 a {
 	text-decoration: none;
-	font-family: menlo;
 	color: #0068b6;
 	padding: 15px;
 	float: left;
@@ -30,20 +27,20 @@ a {
 	text-align: center;
 }
 h1 {
+    font-family: Teko;
 	margin-top: 35px;
 	font-size: 50px;
-	font-family: brushscriptmt;
 	text-align: center;
 	color: #f39c12;
+    font-weight: 500;
 }
 p {
-    display: flex;
-	font-family: menlo;
 	color: #0068b6;
-	line-height: 1.5;
-	padding-left: 30px;
-	padding-right: 30px;
+	line-height: 1.2em;
 	background-color: white;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 .navButtonGallery {
 	width: 75px;
@@ -53,6 +50,22 @@ p {
 	padding: 20;
 
 }
-.gallery {
+.pics {
     display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0px 10%;
+}
+.pics div {
+    width: 80%;
+    align-items: center;
+    height: 480px;
+}
+.pic-vertical {
+    position: relative;
+    width: 20%;
+}
+.pic-horizontal {
+    position: relative;
+    width: 40%;
 }

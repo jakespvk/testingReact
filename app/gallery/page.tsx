@@ -10,13 +10,15 @@ import photo4 from './photos/IMGL1640.jpg';
 class Gallery extends Component {
   render() {
     return (
-      <div id="gallery">
-        <h1 id="galleryH1">gallery</h1>
-      	<p id="galleryP">Here are some pictures...</p>
-        <Image src={photo1} height={480} style={{padding:12}} alt="ugh" />
-        <Image src={photo2} height={480} style={{padding:12}} alt="ugh" />
-        <Image src={photo3} height={480} style={{padding:12}} alt="ugh" />
-        <Image src={photo4} height={480} style={{padding:12}} alt="ugh" />
+      <div class="gallery">
+        <h1 class="galleryH1">gallery</h1>
+      	<p class="galleryP">Here are some pictures...</p>
+        <div class="pics">
+        <div class="pic-vertical"><Image src={photo1} fill style={{objectFit: "cover"}} /*height={}*/ alt="ugh" /></div>
+        <div class="pic-vertical"><Image src={photo2} fill style={{objectFit: "cover"}} /*height={}*/ alt="ugh" /></div>
+        <div class="pic-vertical"><Image src={photo3} fill style={{objectFit: "cover"}} /*height={}*/ alt="ugh" /></div>
+        <div class="pic-horizontal"><Image src={photo4} fill style={{objectFit: "cover"}} /*height={}*/ alt="ugh" /></div>
+        </div>
       </div>
     )
   }
