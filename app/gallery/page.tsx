@@ -14,10 +14,10 @@ class Gallery extends Component {
         <h1 className="galleryH1">gallery</h1>
       	<p className="galleryP">Here are some pictures...</p>
         <div className="pics">
-        <div className="pic-vertical"><Image src={photo1} fill style={{objectFit: "cover"}} /*height={}*/ alt="ugh" /></div>
-        <div className="pic-vertical"><Image src={photo2} fill style={{objectFit: "cover"}} /*height={}*/ alt="ugh" /></div>
-        <div className="pic-vertical"><Image src={photo3} fill style={{objectFit: "cover"}} /*height={}*/ alt="ugh" /></div>
-        <div className="pic-horizontal"><Image src={photo4} fill style={{objectFit: "cover"}} /*height={}*/ alt="ugh" /></div>
+        <div className="img1"><Image src={photo1} alt="ugh" /></div>
+        <div className="img2"><Image src={photo2} alt="ugh" /></div>
+        <div className="img3"><Image src={photo3} alt="ugh" /></div>
+        <div className="img4"><Image src={photo4} alt="ugh" /></div>
         </div>
       </div>
     )

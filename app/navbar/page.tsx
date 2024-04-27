@@ -7,7 +7,7 @@ class NavBar extends Component {
   render() {
     return (
       <header>
-        <ul id="headerButtons">
+        <ul className="headerButtons">
           <Link className="navButtonHome" href='/'>home</Link>
           <Link className="navButtonAbout" href='/about'>about</Link>
           <Link className="navButtonGear" href='/gear'>gear</Link>

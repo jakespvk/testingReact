@@ -52,20 +52,26 @@ p {
 }
 .pics {
     display: flex;
-    align-items: center;
-    flex-grow: 1;
-    padding: 0px 10%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.pics div {
-    width: 80%;
-    align-items: center;
+.img1 img {
     height: 480px;
+    width: auto;
+    padding: 15px;
 }
-.pic-vertical {
-    position: relative;
-    width: 20%;
+.img2 img {
+    height: 480px;
+    width: auto;
+    padding: 15px;
 }
-.pic-horizontal {
-    position: relative;
-    width: 40%;
+.img3 img {
+    height: 480px;
+    width: auto;
+    padding: 15px;
+}
+.img4 img {
+    height: 480px;
+    width: auto;
+    padding: 15px;
 }
