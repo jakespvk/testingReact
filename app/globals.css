@@ -41,6 +41,7 @@ p {
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
+    margin-top: 0;
 }
 .navButtonGallery {
 	width: 75px;
@@ -48,7 +49,6 @@ p {
 .homepageMainP {
 	align-self: center;
 	padding: 20;
-
 }
 .pics {
     display: flex;

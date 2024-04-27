@@ -16,10 +16,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <NavBar/>
-        {children}
-      </body>
+        <head>
+            <link rel="icon" href="/favicon.ico" sizes="any" />
+        </head>
+        <body className={inter.className}>
+            <NavBar/>
+            {children}
+        </body>
     </html>
   )
 }
